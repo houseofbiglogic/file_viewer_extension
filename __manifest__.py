@@ -5,12 +5,16 @@
     'data': [],
     'assets': {
         'web.assets_backend': [
-            'https://unpkg.com/jszip/dist/jszip.min.js',
-            'https://unpkg.com/docx-preview/dist/docx-preview.min.js',
-            'https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js',
+            # Kütüphaneler
+            'file_viewer_extension/static/src/lib/jszip.min.js',
+            'file_viewer_extension/static/src/js/libs_shim.js',
+            'file_viewer_extension/static/src/lib/docx-preview.min.js',
+            'file_viewer_extension/static/src/lib/xlsx.full.min.js',
+       
             'file_viewer_extension/static/src/xml/file_viewer.xml',
             'file_viewer_extension/static/src/js/file_viewer.js',
             'file_viewer_extension/static/src/js/attachment_patch.js',
+            'file_viewer_extension/static/src/js/documents_record_patch.js',
         ],
     },
     'installable': True,

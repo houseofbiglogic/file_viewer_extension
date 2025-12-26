@@ -97,6 +97,8 @@ patch(FileViewer.prototype, {
                 display: flex; 
                 flex-direction: column; 
                 position: relative;
+                background-color: #ffffff !important;
+                color: #000000 !important;
                 overflow: hidden;
             `;
             
