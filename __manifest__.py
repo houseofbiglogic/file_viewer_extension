@@ -1,6 +1,6 @@
 {
-    'name': 'File Viewer Extension',
-    'version': '1.0',
+    'name': 'MS File Viewer Extension',
+    'version': '19.0.1.0.0',
     'summary': 'Enhances file viewing capabilities in Odoo',
     'depends': ['base', 'web', 'mail'],
     'data': [],
@@ -15,7 +15,9 @@
             'file_viewer_extension/static/src/js/attachment_patch.js',
         ],
     },
+    'category': 'Biglogic/FileViewer',
     'installable': True,
     'application': True,
     'license': 'LGPL-3',
+    'icon': '/file_viewer_extension/static/description/file_viewer.png',
 }
