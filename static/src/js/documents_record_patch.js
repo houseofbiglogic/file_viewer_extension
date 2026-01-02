@@ -12,6 +12,7 @@ patch(DocumentsKanbanRecord.prototype, {
 
         const name = this.data.name || this.data.display_name || "";
         const ext = name.split('.').pop().toLowerCase();
+        console.log("Checking viewability for extension:", ext);
         return ['docx'].includes(ext);
     }
 });

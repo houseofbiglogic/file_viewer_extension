@@ -20,6 +20,7 @@ patch(Attachment.prototype, {
 
         // Uzantı kontrolü
         const ext = name.split('.').pop().toLowerCase();
+        console.log("Checking viewability for extension:", ext);
         return ['docx', 'xlsx', 'xls', 'doc'].includes(ext);
     }
 });
