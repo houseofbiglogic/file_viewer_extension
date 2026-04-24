@@ -1,6 +1,7 @@
 {
     'name': 'MS File Viewer Extension',
     'summary': 'Enhances file viewing capabilities in Odoo',
+    'category': 'Biglogic',
     'depends': ['base', 'web', 'mail'],
     'data': [],
     'assets': {
